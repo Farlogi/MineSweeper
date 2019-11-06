@@ -2,15 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MineSweeper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MineSweeper.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MineSweeper/sample/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/MainMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/mainMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/DifficultMenuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/MainMenuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/difficultMenu.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/mainMenu.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/bomb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/bombed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/closed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/flaged.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/inform.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/nobomb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/num1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/num2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/num3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/num4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/num5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/num6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/num7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/num8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/opened.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/zero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/saper.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/DifficultMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/DifficultMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/MainMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/MainMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/difficultMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/difficultMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/mainMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/mainMenu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/bomb.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/bomb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/bombed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/bombed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/closed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/closed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/flaged.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/flaged.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/inform.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/inform.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/nobomb.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/nobomb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/num1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/num1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/num2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/num2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/num3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/num3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/num4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/num4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/num5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/num5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/num6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/num6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/num7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/num7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/num8.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/num8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/opened.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/opened.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/zero.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/zero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/resources/saper.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/saper.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +105,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -97,7 +136,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sample/resorces" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaSweeper2000" />
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
@@ -140,12 +179,12 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.Main" />
+      <option name="MAIN_CLASS_NAME" value="mainPack.Main" />
       <module name="MineSweeper" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value="mainPack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,7 +243,9 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
-      <workItem from="1572957811607" duration="7600000" />
+      <workItem from="1572957811607" duration="7914000" />
+      <workItem from="1572974314415" duration="820000" />
+      <workItem from="1573036446218" duration="11858000" />
     </task>
     <servers />
   </component>
@@ -216,7 +257,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

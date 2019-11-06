@@ -1,4 +1,4 @@
-package sample;
+package mainPack;
 
 import java.io.IOException;
 import java.net.URL;
@@ -30,7 +30,7 @@ public class MainMenuController {
                 Parent root = FXMLLoader.load(getClass().getResource("difficultMenu.fxml"));
                 Stage stage = new Stage();
                 stage.setScene(new Scene(root));
-                stage.getIcons().add(new Image("file:src/sample/resources/img/icon.png"));
+                stage.getIcons().add(new Image("file:src/mainPack/resources/img/icon.png"));
                 stage.setTitle("Minesweeper");
                 stage.setResizable(false);
                 stage.show();

@@ -1,4 +1,4 @@
-package sample;
+package mainPack;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -13,7 +13,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("mainMenu.fxml"));
         primaryStage.setScene(new Scene(root));
-        primaryStage.getIcons().add(new Image("file:src/sample/resources/img/icon.png"));
+        primaryStage.getIcons().add(new Image("file:src/mainPack/resources/img/icon.png"));
         primaryStage.setTitle("Minesweeper");
         primaryStage.setResizable(false);
         primaryStage.show();
