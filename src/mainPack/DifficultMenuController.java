@@ -1,11 +1,11 @@
 package mainPack;
 
-import java.io.IOException;
-import java.net.URL;
-import java.util.ResourceBundle;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import mainPack.gameLogic.MineSweeper;
+
+import java.net.URL;
+import java.util.ResourceBundle;
 
 
 public class DifficultMenuController {
@@ -29,16 +29,12 @@ public class DifficultMenuController {
     void initialize() {
         easyModeButton.setOnAction(actionEvent -> {
             easyModeButton.getScene().getWindow().hide();
-            try {
-                startNewGame(9,9,10);
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            startNewGame(9,9,10);
         });
 
     }
 
-    private void startNewGame(int cols, int rows, int bombs) throws IOException {
+    private void startNewGame(int cols, int rows, int bombs) {
         MineSweeper mineSweeper = new MineSweeper(cols, rows,bombs);
         mineSweeper.initialize();
 

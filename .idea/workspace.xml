@@ -3,58 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/DifficultMenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/MainMenuController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/difficultMenu.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/mainMenu.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/bomb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/bombed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/closed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/flaged.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/inform.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/nobomb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/num1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/num2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/num3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/num4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/num5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/num6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/num7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/num8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/opened.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/img/zero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/sample/resources/saper.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/DifficultMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/DifficultMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/MainMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/MainMenuController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/difficultMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/difficultMenu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/mainMenu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/mainMenu.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/bomb.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/bomb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/bombed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/bombed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/closed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/closed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/flaged.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/flaged.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/inform.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/inform.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/nobomb.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/nobomb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/num1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/num1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/num2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/num2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/num3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/num3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/num4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/num4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/num5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/num5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/num6.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/num6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/num7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/num7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/num8.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/num8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/opened.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/opened.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/img/zero.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/img/zero.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/resources/saper.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/resources/saper.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/mainPack/DifficultMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MineSweeper/mainPack/DifficultMenuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/mainPack/gameLogic/ImageBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MineSweeper/mainPack/gameLogic/ImageBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/MineSweeper/mainPack/gameLogic/MineSweeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MineSweeper/mainPack/gameLogic/MineSweeper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPack/DifficultMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/DifficultMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPack/gameLogic/ImageBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/gameLogic/ImageBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mainPack/gameLogic/MineSweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mainPack/gameLogic/MineSweeper.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -104,8 +67,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -136,8 +99,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaSweeper2000" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -245,7 +209,9 @@
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1572957811607" duration="7914000" />
       <workItem from="1572974314415" duration="820000" />
-      <workItem from="1573036446218" duration="11858000" />
+      <workItem from="1573036446218" duration="12457000" />
+      <workItem from="1573313650398" duration="18783000" />
+      <workItem from="1573379513594" duration="7905000" />
     </task>
     <servers />
   </component>
