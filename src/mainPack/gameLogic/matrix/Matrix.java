@@ -23,8 +23,8 @@ public class Matrix {
     }
 
     void initField(int cols, int rows) {
-        for (int i = 0; i < cols; i++)
-            for (int j = 0; j < rows; j++)
+        for (int i = 0; i < rows; i++)
+            for (int j = 0; j < cols; j++)
                 field[i][j] = ImageBox.ZERO;
     }
 

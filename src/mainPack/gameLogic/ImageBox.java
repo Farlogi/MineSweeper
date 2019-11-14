@@ -20,12 +20,11 @@ public enum ImageBox {
     NOBOMB,
     ICON;
 
+    private Image image;
+
     public ImageBox getNextNumberBox(){
         return ImageBox.values()[this.ordinal() + 1];
     }
-
-
-    private Image image;
 
     public Image getImage() {
         return image;
@@ -34,4 +33,5 @@ public enum ImageBox {
     public void setImage(Image image) {
         this.image = image;
     }
+
 }

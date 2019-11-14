@@ -2,22 +2,26 @@ package mainPack.gameLogic;
 
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseButton;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
+import mainPack.Main;
 
 
 public class MineSweeper {
-    private Game game;
-    private Group root;
-    ImageView[][] imageViews;
+
     private final int COLS;
     private final int ROWS;
     private final int BOMBS;
     private final int IMG_SIZE = 50;
-
+    private Game game;
+    private Group root;
+    private Label label;
+    private ImageView[][] imageViews;
+    private Stage stage;
 
     public MineSweeper(int COLS, int ROWS, int BOMBS) {
         this.COLS = COLS;
@@ -27,12 +31,22 @@ public class MineSweeper {
         game = new Game(COLS,ROWS,BOMBS);
     }
 
+    public void initialize() {
+        root = initTopMatrix();
+        label = new Label();
+        label.setLayoutY(IMG_SIZE * ROWS);
+        label.setText("Be careful, good luck!");
+        root.getChildren().add(label);
+        show();
+        mouseListener();
+    }
+
     private Group initTopMatrix(){
         root = new Group();
         Coord coord;
-        imageViews = new ImageView[COLS][ROWS];
-        for (int i = 0; i < COLS; i++) {
-            for (int j = 0; j < ROWS; j++) {
+        imageViews = new ImageView[ROWS][COLS];
+        for (int i = 0; i < ROWS; i++) {
+            for (int j = 0; j < COLS; j++) {
                 coord = new Coord(j,i);
                 imageViews[i][j] = new ImageView(game.getTopImageBox(coord).getImage());
                 imageViews[i][j].setY(i * IMG_SIZE);
@@ -43,10 +57,43 @@ public class MineSweeper {
         return root;
     }
 
+    private void show(){
+        stage = new Stage();
+        stage.setScene(new Scene(root));
+        stage.getIcons().add(ImageBox.ICON.getImage());
+        stage.setTitle("Minesweeper");
+        stage.setResizable(false);
+        stage.show();
+    }
+
+    private void mouseListener(){
+        root.addEventFilter(MouseEvent.MOUSE_CLICKED, mouseEvent -> {
+            if (game.getGameStat() == GameStat.PLAYED) {
+                Coord coord = new Coord((int) mouseEvent.getSceneX() / IMG_SIZE,
+                        (int) mouseEvent.getSceneY() / IMG_SIZE);
+
+                if (mouseEvent.getButton().equals(MouseButton.PRIMARY))
+                    game.leftClickLogik(coord);
+
+                if (mouseEvent.getButton().equals(MouseButton.SECONDARY))
+                    game.rightClickLogik(coord);
+
+                if (mouseEvent.getButton().equals(MouseButton.MIDDLE))
+                    newGame();
+
+                changeTopMatrix(root);
+                checkWinLose(label);
+            }
+            else{
+                newGame();
+            }
+        });
+    }
+
     private void changeTopMatrix (Group root){
         Coord coord;
-        for (int i = 0; i < COLS; i++) {
-            for (int j = 0; j < ROWS; j++) {
+        for (int i = 0; i < ROWS; i++) {
+            for (int j = 0; j < COLS; j++) {
                 coord = new Coord(j,i);
                 imageViews[i][j] = new ImageView(game.getTopImageBox(coord).getImage());
                 imageViews[i][j].setY(i * IMG_SIZE);
@@ -55,7 +102,6 @@ public class MineSweeper {
             }
         }
     }
-
 
     private void setImages(){
         for(ImageBox box: ImageBox.values()){
@@ -68,29 +114,29 @@ public class MineSweeper {
         return image;
     }
 
-    public void initialize() {
-        root = initTopMatrix();
+    private void checkWinLose(Label label) {
+        if (game.getGameStat() == GameStat.LOSE){
+            label.setText("You lose... Big BOOM!!! Press button...");
+            root.getChildren().set(ROWS * COLS, label);
+            return;
+        }
 
-        root.addEventFilter(MouseEvent.MOUSE_CLICKED, mouseEvent -> {
-            ImageView imageView;
-            Coord coord = new Coord((int)mouseEvent.getSceneX() / IMG_SIZE,
-                                    (int)mouseEvent.getSceneY() / IMG_SIZE);
-
-            if (mouseEvent.getButton().equals(MouseButton.PRIMARY)) {
-                game.leftClickLogik(coord);
-                changeTopMatrix(root);
-            }
-        });
-        show();
+        if (game.playerWin(COLS, ROWS)) {
+            game.setGameStat(GameStat.WIN);
+            label.setText("Congratulation!!! Press button...");
+            root.getChildren().set(ROWS * COLS, label);
+        }
 
     }
 
-    private void show(){
-        Stage stage = new Stage();
-        stage.setScene(new Scene(root, COLS * IMG_SIZE, ROWS * IMG_SIZE));
-        stage.getIcons().add(ImageBox.ICON.getImage());
-        stage.setTitle("Minesweeper");
-        stage.setResizable(false);
-        stage.show();
+    private void newGame(){
+        stage.getScene().getWindow().hide();
+        Main main = new Main();
+        try {
+            main.start(new Stage());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
+
 }

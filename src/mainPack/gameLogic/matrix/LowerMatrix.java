@@ -7,13 +7,11 @@ import java.util.Random;
 
 public class LowerMatrix extends Matrix {
 
-    private int bombs;
     private Random random;
     private Coord coord;
 
-    public LowerMatrix(int cols, int rows, int bombs) {
-        field = new ImageBox[cols][rows];
-        this.bombs = bombs;
+    public LowerMatrix(int cols, int rows) {
+        field = new ImageBox[rows][cols];
         random = new Random();
         initField(cols, rows);
     }

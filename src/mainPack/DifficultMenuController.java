@@ -4,17 +4,8 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import mainPack.gameLogic.MineSweeper;
 
-import java.net.URL;
-import java.util.ResourceBundle;
-
 
 public class DifficultMenuController {
-
-    @FXML
-    private ResourceBundle resources;
-
-    @FXML
-    private URL location;
 
     @FXML
     private Button easyModeButton;
@@ -31,11 +22,19 @@ public class DifficultMenuController {
             easyModeButton.getScene().getWindow().hide();
             startNewGame(9,9,10);
         });
+        mediumModeButton.setOnAction(actionEvent -> {
+            easyModeButton.getScene().getWindow().hide();
+            startNewGame(16,16,40);
+        });
+        hardModeButton.setOnAction(actionEvent -> {
+            easyModeButton.getScene().getWindow().hide();
+            startNewGame(30,16,99);
+        });
 
     }
 
     private void startNewGame(int cols, int rows, int bombs) {
-        MineSweeper mineSweeper = new MineSweeper(cols, rows,bombs);
+        MineSweeper mineSweeper = new MineSweeper(cols, rows, bombs);
         mineSweeper.initialize();
 
     }
